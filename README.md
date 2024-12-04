@@ -58,28 +58,7 @@ The dataset consists of chest X-ray images preprocessed to ensure uniformity and
 
 These results demonstrate the significant improvement brought by the post-processing layer.
 
-## Usage
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/onkarvkunte/LungSegmentation.git
-   cd LungSegmentation
-   ```
-
-2. Install dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-3. Train the model:
-   ```bash
-   python train.py --config config.yaml
-   ```
-
-4. Evaluate the model:
-   ```bash
-   python evaluate.py --model_path checkpoints/model.pth
-   ```
 
 ## Contributors
 
